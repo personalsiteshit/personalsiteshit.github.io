@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: #efefef; 
+    color: #efefef; 
+}
+
+.head_text {
+    font-size: 500%; 
+    color: #efefef; 
+    font-weight: 400; 
+    height: 40%
+}
+
+.flex_head_text {
+    display: flex; 
+    background-color: #557A95; 
+    height: 70vh; 
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    padding-left: 32%; 
+}
+
+.bio_text {
+    color: #575757; 
+    font-size: 230%;
+}
+
+.face_1 {
+    border-radius: 50%; 
+    height: 30%; 
+    width: auto; 
+    position: absolute; 
+    top: 16%; 
+    left: 14%;
+}
+
+.flex_photo {
+    display: flex; 
+}
+
+.job_text {
+    text-transform: uppercase; 
+    font-size: 150%; 
+    margin-top: 30px; 
+    font-weight: 600; 
+}
+
+.flex_row {
+    display: flex; 
+    background-color: #efefef; 
+    padding-left: 6%; 
+    padding-right: 6%; 
+    padding-bottom: 1%; 
+    justify-content: space-between; 
+}
+
+.flex_p_text {
+    color: #000; 
+    width: 25%;  
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word; 
+    font-weight: 300; 
+    color: #557A95; 
+    font-size: 230%; 
+    cursor: default; 
+}
+
+.flex_row_icons ion-icon {
+    font-size: 400%; 
+    color: #557A95; 
+    width: 25%; 
+}
+
+.flex_row_icons {
+    display: flex; 
+    background-color: #efefef; 
+    padding-left: 6%; 
+    padding-right: 6%; 
+    padding-top: 2%; 
+    justify-content: space-between; 
+}
+
+.body_text {
+    color: #575757; 
+    width: 25%;  
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word; 
+    letter-spacing: 0px; 
+    font-size: 100%; 
+    padding-bottom: 1%; 
+    cursor: default; 
+}
+
+div i {
+    color: #557A95; 
+    font-size: 500%; 
+    width: 25%; 
+}
+
+.hover_on {
+    opacity: 0; 
+    transition-duration: 1s; 
+}
+
+.hover_on:hover {
+    opacity: 1; 
+    transition-duration: 1s; 
+}
+
+.arrow_first_page i {
+    position: absolute; 
+    top: 1%; 
+    left: 95%; 
+    color: #575757; 
+    transition-duration: 1s; 
+}
+
+.arrow_first_page i:hover {
+    color: #efefef;
+    transition-duration: 1s; 
+}
